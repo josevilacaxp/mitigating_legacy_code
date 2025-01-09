@@ -18,7 +18,6 @@ select * from {{ ref('stg_stripe__payments') }}
 
 ),
 
-
 customer_order_history as (
     select 
         customers.customer_id,
